@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}body{
+    color: white;
+    background-color: black;
+}
+header{
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    font-size: 1.2rem;
+}
+header div ul{
+    display: flex;
+    list-style: none;
+}
+header div ul li a{
+    text-decoration: none;
+    color: white;
+}
+.name{
+    width: 20vw;
+    height: 8vh;
+    font-size: 1.6rem;
+    /* background-color: red; */
+    text-align: center;
+    line-height: 8vh;
+}
+.name i{
+    margin-right: 10px;
+}
+.content{
+    height: 8vh;
+    width: 80vw;
+    text-align: center;
+    line-height: 8vh;
+}
